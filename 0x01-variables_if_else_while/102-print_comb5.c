@@ -17,7 +17,7 @@ e = 48;
 while (e < 58)
 {
 i = 48;
-while (i < 58)																
+while (i < 58)
 {
 op1 = (h * 10) + g;
 op2 = (e * 10) + i;
@@ -25,7 +25,7 @@ if (op1 < op2)
 {
 putchar(h);
 putchar(g);
-putchar(' ');
+putchar('');
 putchar(e);
 putchar(i);
 if (h == 57 && g == 56 && e == 57 && i == 57)
