@@ -3,7 +3,7 @@
 /**
 * main - check description
 *
-* Description: It prints the word Holberton, followed by a new line.
+* Description: It prints the word _putchar, followed by a new line.
 *
 * Return: Always 0.
 */
