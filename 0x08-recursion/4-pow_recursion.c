@@ -4,7 +4,8 @@
 * @x: integer inputted
 * @y: power given
 * Return: 1 if n is 0 or -1 is n is negative or pow of n if > 0
-/
+*
+*/
 int _pow_recursion(int x, int y)
 {
 if (y > 0)/*if y is more than 0*/
