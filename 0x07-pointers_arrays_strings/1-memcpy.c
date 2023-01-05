@@ -1,41 +1,21 @@
 #include "main.h"
-
-
-
 /**
- *
- *  * _memcpy - input
- *
- *   * @dest: input pointer to string destination
- *
- *    * @src: input pointer to source string
- *
- *     * @n: number of bytes
- *
- *      * Return: pointer to destination string
- *
- *       */
-
-
-
+* _memcpy - function changes the values by n bytes given
+* @dest: character address to be given
+* @src: character to be inputted
+* @n: number of bytes to be changed
+* Return: dest
+*/
 char *_memcpy(char *dest, char *src, unsigned int n)
-
 {
-
-		unsigned int i = 0;
-
-
-
-			while (i < n)
-
-					{
-
-								*(dest + i) = *(src + i);
-
-										i++;
-
-											}
-
-				return (dest);
-
+/*Declare variable to be used in for loop*/
+int i;
+/*just changing the values of the n bytes array*/
+for (i = 0; n > 0; i++)
+{
+/*now change the values of dest with src and readuce n bytes*/
+dest[i] = src[i];
+n--;
+}
+return (dest);
 }
